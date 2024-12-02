@@ -29,3 +29,29 @@ footer div {
     color: var(--secondary);
     background-color: var(--secondary);
 }
+
+footer .logo-dark-svg {
+    margin: auto -4rem;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-text h1 {
+    text-align: left;
+    font-family: 'OstrichBlack', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
