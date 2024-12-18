@@ -1,0 +1,52 @@
+.testimonials {
+    width: 86%;
+    margin: 0 7% 200px;
+}
+
+.testimonial-wrap {
+    display: flex !important; /* Ensure flex is applied */
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px;
+}
+
+.testimonial-wrap img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    max-width: 900px;
+    margin-left: 25px;
+}
+
+.testimonial-text h6 {
+    margin: 0;
+    font-size: 32px;
+    font-family: "OstrichBlack", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: var(--secondary);
+}
+
+.testimonial-text p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 1rem 0;
+}
+
+/* Override the default color of the dots */
+.slick-dots li button:before {
+    color: var(--secondary) !important;
+}
+
+/* Override the color of the active dot */
+.slick-dots li.slick-active button:before {
+    color: var(--secondary) !important;
+}

@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import LodgeStats from "@/components/LodgeStats";
+import Testimonials from "@/components/Testimonials";
 
 export default function LodgePage() {
 
@@ -14,6 +15,7 @@ export default function LodgePage() {
     return (
         <div>
             <Hero heroData={lodgeHeroData} />
+            <Testimonials />
             <LodgeStats />
             <Footer />
         </div>
