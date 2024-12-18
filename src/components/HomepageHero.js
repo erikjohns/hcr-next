@@ -1,6 +1,7 @@
 import NavBar from "@/components/NavBar";
 import {FaFacebook, FaInstagram} from "react-icons/fa";
 import '@/styles/HomepageHero.css';
+import Link from "next/link";
 
 export default function HomepageHero() {
     return (
@@ -16,8 +17,8 @@ export default function HomepageHero() {
                     <h3>Event Venue & Lodge</h3>
                     <div className={'buttons'}>
                         {/*TODO: make these buttons link to somewhere */}
-                        <button>Learn More</button>
-                        <button>Contact Us</button>
+                        <Link href={'/about'}><button>Learn More</button></Link>
+                        <Link href={'/contact'}><button>Contact Us</button></Link>
                     </div>
                 </div>
                 <div className={'social-icons'}>

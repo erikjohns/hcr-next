@@ -9,7 +9,7 @@ export default function Footer() {
                 <LogoDark className={'footer-logo'}/>
                 <div className={'footer-text'}>
                     <h1>Hail Columbia Ranch</h1>
-                    <p>&copy;2024 Hail Columbia Ranch. All Rights Reserved</p>
+                    <p>&copy;2024 Hail Columbia Ranch. All Rights Reserved.</p>
                 </div>
             </div>
 

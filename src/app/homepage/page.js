@@ -18,7 +18,7 @@ export default function Homepage() {
                 it's an immersive retreat, blending rustic charm with modern comfort. 
                 Your dream event begins at Hail Columbia Ranch – where love and nature unite in 
                 perfect harmony, and every moment is a cherished memory.`,
-            image: '/images/McGrath-8.jpg',
+            image: '/images/McGrath-7.jpg',
             left: true,
         },
         {
@@ -32,7 +32,7 @@ export default function Homepage() {
             hasButton: true,
             buttonLink: '/venue',
             left: false,
-            image: '/images/McGrath-8.jpg',
+            image: '/images/BarnFront.jpg',
         },
         {
             title: "The Lodge",
@@ -44,7 +44,7 @@ export default function Homepage() {
             hasButton: true,
             buttonLink: '/lodge',
             left: true,
-            image: '/images/McGrath-8.jpg',
+            image: '/images/McGrath-17.jpg',
         },
     ];
 
