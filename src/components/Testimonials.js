@@ -27,18 +27,25 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="testimonials">
-            <Slider {...settings} className={"testimonials-slider"}>
-                {testimonials.map((testimonial, index) => (
-                    <div className="testimonial-wrap" key={index}>
-                        <img src={testimonial.image} alt="Testimonial avatar" />
-                        <div className="testimonial-text">
-                            <p>{testimonial.quote}</p>
-                            <h6>{testimonial.author}</h6>
-                        </div>
-                    </div>
-                ))}
-            </Slider>
+        <div className={'homepage-section-container'}>
+            <div className={'homepage-section-text-container homepage-section-text-right-align'}>
+                <h1>The Reviews</h1>
+                <h4>See What Others Have to Say</h4>
+                <div className="testimonials">
+                    <Slider {...settings} className={"testimonials-slider"}>
+                        {testimonials.map((testimonial, index) => (
+                            <div className="testimonial-wrap" key={index}>
+                                <p>{testimonial.quote}</p>
+                                <div className="testimonial-user">
+                                    <img src={testimonial.image} alt="Testimonial avatar"/>
+                                    <h6>{testimonial.author}</h6>
+                                </div>
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+            </div>
+            <img src={'/images/McGrath-18.jpg'} alt={'The Lodge'} className={'homepage-section-image homepage-section-image-left-align'} />
         </div>
     );
 };
