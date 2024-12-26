@@ -1,0 +1,13 @@
+.lodge-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stat-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+}

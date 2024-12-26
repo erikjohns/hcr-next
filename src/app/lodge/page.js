@@ -25,8 +25,8 @@ export default function LodgePage() {
         <div>
             <Hero heroData={lodgeHeroData} />
             <HomepageSection data={headerData} />
-            <Testimonials />
             <LodgeStats />
+            <Testimonials />
             <Footer />
         </div>
     )
