@@ -21,11 +21,20 @@ export default function LodgePage() {
         left: true,
     }
 
+    const gallerySectionData = {
+        title: "The Pictures",
+        subtitle: "See the Place for Yourself",
+        text: "The gallery...",
+        image: '/images/McGrath-17.jpg',
+        left: true,
+    }
+
     return (
         <div>
             <Hero heroData={lodgeHeroData} />
             <HomepageSection data={headerData} />
             <LodgeStats />
+            <HomepageSection data={gallerySectionData} />
             <Testimonials />
             <Footer />
         </div>
