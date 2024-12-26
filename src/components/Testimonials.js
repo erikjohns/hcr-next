@@ -29,7 +29,7 @@ const Testimonials = () => {
     return (
         <div className={'homepage-section-container'}>
             <div className={'homepage-section-text-container homepage-section-text-right-align'}>
-                <h1>The Reviews</h1>
+                <h1>Reviews</h1>
                 <h4>See What Others Have to Say</h4>
                 <div className="testimonials">
                     <Slider {...settings} className={"testimonials-slider"}>

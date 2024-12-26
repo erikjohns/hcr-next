@@ -6,9 +6,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 1.25rem;
+    margin: 1.25rem 2.5rem;
     gap: 1rem;
-    margin-right: 2.5rem;
 }
 
 .testimonial-user img {
